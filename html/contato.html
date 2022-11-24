@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="loja fashion front end dev">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>GK Fashion | Contato</title>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <a href="../html/index.html"><img src="../img/logo_GK.png" alt="GK Logomarca" title="GK Logomarca"></a>
+            <p class="sacola">Nenhum item na sacola de compras</p>
+        </header>
+
+        <nav class="menu-principal">
+            <ul>
+                <li><a href="#">Sua conta</a></li>
+                <li><a href="#">Lista de Desejos</a></li>
+                <li><a href="#">Cartão Fidelidade</a></li>
+                <li><a href="../html/sobre.html">Sobre</a></li>
+                <li><a href="../html/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="contato">
+
+                <h2>Entre em contato</h2>
+
+                <form
+                action="https://formspree.io/f/xwkyrlye"
+                method="POST"
+                >
+                <label>
+                    Nome:
+                    <input type="text" name="nome">
+                </label>
+                <label>
+                    E-mail:
+                    <textarea type="text" name="E-mail"></textarea>
+                </label>
+                <label>
+                    Motivo:
+                    <select name="motivo" id="motivo">
+                        <option></option>
+                        <option>Sugestão</option>
+                        <option>Crítica</option>
+                        <option>Elogio</option>
+                        <option>Comentário</option>
+                    </select>
+                </label>
+                <label>
+                    Comentários:
+                    <textarea type="text" name="comentarios"></textarea>
+                </label>
+                <button type="submit">Enviar</button>
+                </form>
+
+            </section>
+        </main>
+
+        <footer>
+
+            <div class="caixa-footer">
+
+                <img src="../img/logo_rodape.png" alt="logo-GK" title="logo-GK">
+                <p>&copy; Copyright GK Fashion</p>
+                <ul class="social">
+                    <li><a href="http://www.facebook.com/gkfashion">Facebook</a></li>
+                    <li><a href="http://www.twitter.com/gkfashion">Twitter</a></li>
+                    <li><a href="http://plus.google.com/gkfashion">Google+</a></li>
+                </ul>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+</html>
